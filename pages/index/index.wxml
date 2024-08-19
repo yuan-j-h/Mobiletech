@@ -1,0 +1,8 @@
+<view class='container'>
+    <image  bindtap="bindViewTap"  src = '{{userInfo.avatarUrl}}' mode = 'widthFix'></image>
+    <text >{{userInfo.nickName}}</text>
+    <button bindtap="getUserProfile">
+        点击获取头像和昵称
+    </button>
+
+</view>
